@@ -1,0 +1,213 @@
+body{
+    font-family: Source sans-serif;
+}
+h1 {
+    font-size: 3em;
+}
+p {
+    font-size: 1.5em;
+}
+li {
+    font-size:1.5em;
+}
+nav{
+    background-color: #C12127;
+    color:rgba(255,255,255,0.8);
+    height:40px;
+    padding: 10px 10px;
+}
+nav a{
+    color:rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+.acronym{
+    padding-left: 10px;
+}
+.top-left{
+    padding-top:7.5px;
+    padding-bottom: 7.5px;
+    padding-left: 15px;
+    float:left;
+}
+.top-links{
+    display:inline-block;
+    float: right;
+    padding-top:7.5px;
+    padding-bottom: 7.5px;
+    margin:0 20px 0 0;
+    list-style-type: none;
+}
+.top-links li{
+    display: inline-block;
+    margin:0 10px;
+    font-size:1em;
+}
+
+
+#header{
+    background-color: rgb(32, 101, 136);
+    color:white;
+    padding-bottom: 30px;
+
+}
+.header-top{
+    padding-top:5px;
+    display:flex;
+    flex-direction: row;
+    align-items:stretch;
+}
+.header-top-image {
+    padding-top: 10px;
+}
+.header-top > p > a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.header-top{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.search-bar{
+    background-color: rgb(31, 82, 111);
+    color:white;
+    margin-top:20px;
+    width: 70%;
+    height: 10%;
+    border-radius: 5%;
+}
+.button-search {
+    margin-right:15px;
+    background-color: rgb(31, 82, 111);
+    color:white;
+    border-radius:15%
+}
+.search-bar-div{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 7.5px 0 0 0;
+}
+
+.header-bottom{
+    margin:0 auto;
+    background-color: rgb(32, 101, 136);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 40px 0 0 0;
+}
+.header-bottom-left{
+    padding: 100px 40px;
+    text-align: center;
+}
+.button-header-bottom{
+  background-color: rgb(240, 146, 51);
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin:0 auto;
+  padding: 20px 10px;
+  border: 21px solid black 0.2;
+  border-radius: 15%;
+}
+
+
+#section-1 {
+    background-color: rgb(39,53,71);
+    color: white;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding:100px 275px;
+}
+.section-1-right > ul > li  {
+    padding: 10px 0;
+}
+.section-1-right > p > a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.button-section-1 {
+  background-color: rgb(203,56,55);
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  margin:0 auto;
+  padding: 20px 10px;
+  border: 21px solid black 0.2;
+  border-radius: 15%;
+}
+.header-right{
+    justify-content: right;
+}
+
+#section-2 {
+    background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+    background-size: cover;
+    padding: 150px 300px;
+    border: 100px 0 200px 0;
+    color:white;
+}
+.section-2-left{
+    padding-left: 1em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-section-2 {
+    background-color: rgb(49,68,88);
+    color:white;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    padding: 20px 10px;
+    border: 21px solid black 0.2;
+    border-radius: 15%;
+    justify-content: center;
+}
+
+#section-3 {
+    background-color: white;
+
+}
+.section-3-top {
+    text-align: center;
+    padding:30px 30px;
+    color:rgb(83,88,98);
+}
+.section-3-bottom {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container-section-3-bottom {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0;
+}
+.container-section-3-bottom h2 {
+    color:rgb(83,88,98);
+}
+.container-section-3-bottom p {
+    color: rgb(135,145,156);
+}
+.container-section-3-bottom > p > a {
+    color: rgb(208,74,73);
+    text-decoration: none;
+}
+
+
